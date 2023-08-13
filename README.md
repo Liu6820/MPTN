@@ -21,3 +21,8 @@ We provide the dataset in the [data](data/) folder.
 
 - [GP-KG](data/GP-KG/)
 - [OpenBioLink](data/openbiolink/)
+
+### Model
+
+The basic structure of our model an be found in [model](data/model) folder.
+The model can be divided into 4 parts, data loading, CompGCN module, Message passing transformer module and Drug repurposing prediction. They can be used in file [`data_loader.py`](code/model/data_loader.py), [`CompGCN.py`](code/model/CompGCN.py), [`message_passing.py`](code/model/message_passing.py) and [`prediction`](code/model/prediction.py).

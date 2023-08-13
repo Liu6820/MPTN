@@ -14,3 +14,12 @@
 * `torch_scatter(version>=2.0.4)`
 * `scikit_learn(version>=0.21.1)`
 * `torch-geometric`
+
+## Datastes
+
+We provide the dataset in the [data](data/) folder.
+
+| Data | 
+| --- |
+| [GP-KG](data/GP-KG/)|
+| [OpenBioLink](data/openbiolink/) |

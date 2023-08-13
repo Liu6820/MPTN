@@ -6,7 +6,7 @@ from model.tools import ccorr_new, cconv, ccorr,rotate, cconv_new
 import torch.nn.functional as F
 import math
 
-class Transformer(MessagePassing):
+class MPT(MessagePassing):
     def __init__(self, in_channels, out_channels, rel_dim, drop, bias, op, beta, num_head=1, final_layer=False):
         super(Transformer, self).__init__(aggr = "add", node_dim=0)
         self.in_channels = in_channels

@@ -19,7 +19,5 @@
 
 We provide the dataset in the [data](data/) folder.
 
-| Data | 
-| --- |
-| [GP-KG](data/GP-KG/)|
-| [OpenBioLink](data/openbiolink/) |
+- [GP-KG](data/GP-KG/)
+- [OpenBioLink](data/openbiolink/)

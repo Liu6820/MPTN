@@ -26,3 +26,7 @@ We provide the dataset in the [data](data/) folder.
 
 The basic structure of our model an be found in [model](model/) folder.
 The model can be divided into 4 parts, data loading, CompGCN module, Message passing transformer module and Drug repurposing prediction. They can be used in file [`data_loader.py`](model/data_loader.py), [`CompGCN.py`](model/CompGCN.py), [`MPT.py`](model/MPT.py) and [`predict.py`](model/predict.py).
+
+### Training
+
+Training-related utilities can be found in [`main.py`](main.py). The trained model is saved in the directory [model_saved](model_saved/).

@@ -25,6 +25,28 @@ We provide the dataset in the [data](data/) folder.
 - [GP-KG](data/GP-KG/)
 - [OpenBioLink](data/openbiolink/)
 
+## Repository structure
+
+The current repository is structured in the following way:
+```
+|-- MPTN.png
+|-- README.md
+|-- main.py
+|-- test.py
+|-- config
+|   |-- log_config.json
+|-- data (Data folder)
+|   |-- GP-KG
+|   `-- openbiolink
+`-- model
+    |-- CompGCN.py
+    |-- MPT.py
+    |-- data_loader.py
+    |-- message_passing.py
+    |-- predict.py
+    |-- tool.py
+```
+
 ## Model
 
 The basic structure of our model an be found in [model](model/) folder.

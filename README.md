@@ -35,3 +35,4 @@ identical to the output of a `torch.utils.data.DataLoader`. The trained model is
 ### Test
 
 Test-related utilities can be found in [`test.py`](test.py). Create a test file named as "drug_pre.txt" and moved the file to the folder "test_data". Predicting results will be saved in the file "results.txt".
+

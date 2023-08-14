@@ -4,6 +4,9 @@
 
 **This is the data and code for our paper** `MPTN: a message-passing transformer network for drug repurposing from knowledge graph`.
 
+Drug repurposing (DR) based on knowledge graphs (KGs) is challenging, which uses knowledge graph reasoning models to predict new therapeutic pathways for existing drugs. With the rapid development of computing technology and the growing availability of validated biomedical data, various knowledge graph-based methods have been widely used to analyze and process complex and novel data to discover new therapeutic pathways for existing drugs. However, existing methods need to be improved in extracting semantic information from contextual triples of biomedical entities. In this study, we propose a message passing transformer network based on knowledge graph for drug repurposing named MPTN. First, CompGCN is used to precode entity and relation embeddings by jointly aggregating entity and relation embeddings. Then, to fully capture the semantic information of entity context triples, the message passing transformer module is designed. The module integrates the transformer into the message-passing mechanism and incorporates the attention weight information of computing entity context triples into the
+entity embedding to update the entity embedding. MPTN utilizes the InteractE module as the decoder to obtain heterogeneous feature interactions in entity and relation representations. Experiments on two datasets show that this model is superior to the existing knowledge graph embedding (KGE) learning methods.
+
 ## Prerequisites
 
 * `Python(version >= 3.6)`

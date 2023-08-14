@@ -29,4 +29,9 @@ The model can be divided into 4 parts, data loading, CompGCN module, Message pas
 
 ### Training
 
-Training-related utilities can be found in [`main.py`](main.py). The trained model is saved in the directory [model_saved](model_saved/).
+Training-related utilities can be found in [`main.py`](main.py). They accept `Iterator`'s that yield batched data,
+identical to the output of a `torch.utils.data.DataLoader`. The trained model is saved in the directory “model_saved". 
+
+### Test
+
+Test-related utilities can be found in [`test.py`](test.py). Create a test file named as "drug_pre.txt" and moved the file to the folder "test_data". Predicting results will be saved in the file "results.txt".

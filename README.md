@@ -25,17 +25,17 @@ We provide the dataset in the [data](data/) folder.
 - [GP-KG](data/GP-KG/)
 - [OpenBioLink](data/openbiolink/)
 
-### Model
+## Model
 
 The basic structure of our model an be found in [model](model/) folder.
 The model can be divided into 4 parts, data loading, CompGCN module, Message passing transformer module and Drug repurposing prediction. They can be used in file [`data_loader.py`](model/data_loader.py), [`CompGCN.py`](model/CompGCN.py), [`MPT.py`](model/MPT.py) and [`predict.py`](model/predict.py).
 
-### Training
+## Training
 
 Training-related utilities can be found in [`main.py`](main.py). They accept `Iterator`'s that yield batched data,
 identical to the output of a `torch.utils.data.DataLoader`. The trained model is saved in the directory “model_saved". 
 
-### Test
+## Test
 
 Test-related utilities can be found in [`test.py`](test.py). Create a test file named as "drug_pre.txt" and moved the file to the folder "test_data". Predicting results will be saved in the file "results.txt".
 
